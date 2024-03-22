@@ -28,6 +28,7 @@ export const diceSlice = createSlice({
       state.scores[state.activePlayer] = state.scores[state.activePlayer] + state.currentScore;
       
       state.playing = state.scores[state.activePlayer] <= 20;
+      
       state.currentScore = 0;
       state.activePlayer = state.activePlayer === 0 ? 1 : 0;
     },
