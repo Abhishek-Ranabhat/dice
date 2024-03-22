@@ -3,9 +3,8 @@ import Reducer from "./diceSlice";
 
 export const store = configureStore({
   reducer: {
-    game: Reducer,
+    dice: Reducer,
   },
-
 });
 
-export default store
+export default store;

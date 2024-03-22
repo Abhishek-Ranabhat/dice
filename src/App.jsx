@@ -12,7 +12,7 @@ import dice6 from "./images/dice-6.png";
 function App() {
   const dispatch = useDispatch();
   const { scores, currentScore, activePlayer, playing, dice } = useSelector(
-    (state) => state.game
+    (state) => state.dice
   );
   const diceImages = {
     1: dice1,
