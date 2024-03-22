@@ -50,7 +50,7 @@ function App() {
       ))}
 
       {playing && (
-        <img src={diceImages[dice]} alt={`Dice ${dice}`} className="dice" />
+        <img src={diceImages[dice]} className="dice" />
       )}
 
       <button
